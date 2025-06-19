@@ -1,0 +1,19 @@
+# training parameters
+DEVICE = "cuda"
+INIT_LR = 0.001
+NUM_EPOCHS = 1000
+BATCH_SIZE = 8
+SPLIT_PCT = 0.8
+SEED = 72
+STOP_CRITERION = 1000
+
+# image size, model inputs
+INPUT_IMAGE_WIDTH = 128
+INPUT_IMAGE_HEIGHT = 128
+OUTPUT_CHANNELS = 2
+
+# misc
+IMAGE_KEY = "image"
+LABEL_KEY = "label"
+PRED_KEY = "pred"
+KEYS = (IMAGE_KEY, LABEL_KEY)
